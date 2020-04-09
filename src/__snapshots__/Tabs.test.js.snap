@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tabs /> closes the first tab and opens any clicked tab 1`] = `
+<div>
+  <ul>
+    <li
+      key="0"
+    >
+      <button
+        onClick={[Function]}
+      >
+        First tab
+      </button>
+    </li>
+    <li
+      key="1"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Second tab
+      </button>
+      <p>
+        Laboriosam exercitationem quos consectetur expedita consequatur. Fugit, sapiente aspernatur corporis velit, dolor eum reprehenderit provident ipsam, maiores incidunt repellat! Facilis, neque doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </p>
+    </li>
+    <li
+      key="2"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Third tab
+      </button>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<Tabs /> render empty Ul when tabProps is null  1`] = `
+<div>
+  <ul />
+</div>
+`;
+
+exports[`<Tabs /> renders empty given no tabs 1`] = `
+<div>
+  <ul />
+</div>
+`;
+
+exports[`<Tabs /> renders the first tab by default  1`] = `
+<div>
+  <ul>
+    <li
+      key="0"
+    >
+      <button
+        onClick={[Function]}
+      >
+        First tab
+      </button>
+    </li>
+    <li
+      key="1"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Second tab
+      </button>
+    </li>
+    <li
+      key="2"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Third tab
+      </button>
+    </li>
+  </ul>
+</div>
+`;
